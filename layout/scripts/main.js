@@ -110,6 +110,10 @@ function configureSubmitAction() {
     setTimeout(() => {
       loadingbtn.style.display = "none";
       sentbtn.style.display = "inline-block";
-    }, 750);
+    }, genRand(300, 1000));
   };
+}
+
+function genRand(min, max) {
+  return Math.max(min, Math.random() * max);
 }
