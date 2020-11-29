@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <title>Portfolio</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <link
+      href="layout/styles/layout.css"
+      rel="stylesheet"
+      type="text/css"
+      media="all"
+    />
+    <link
+      href="bootstrap-4.5.3-dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/viewerjs/1.8.0/viewer.min.css"
+      integrity="sha512-i7JFM7eCKzhlragtp4wNwz36fgRWH/Zsm3GAIqqO2sjiSlx7nQhx9HB3nmQcxDHLrJzEBQJWZYQQ2TPfexAjgQ=="
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/b9e735229b.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body id="top">
+    <header>
+      <div
+        class="bgded overlay fullscreen"
+        style="background-image: url('images/demo/backgrounds/01.jpg')"
+      >
+        <nav
+          class="navbar fixed-top navbar-expand-lg navbar-dark"
+          style="background-color: rgb(19, 18, 18)"
+        >
+          <span class="navbar-brand mb-0 h1">Portfolio</span>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#"
+                  >Welcome<span class="sr-only"></span
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div
+          id="header-text"
+          class="d-flex flex-column justify-content-center align-items-center container"
+        >
+          <div>
+            <h1>I redefine what is possible</h1>
+            <p class="lead mt-2 mb-5">
+              As a full stack developer, I am more than eager to bring great
+              value to every product, regardless of scale, platform or userbase.
+            </p>
+          </div>
+          <a href="#about" class="btn btn-outline-success btn-lg"
+            >More about me</a
+          >
+        </div>
+      </div>
+    </header>
+    <main>
+      <section id="about" class="bg-light">
+        <div class="ball bg-danger circle"></div>
+        <p id="hi" class="display-4">Hi</p>
+        <div class="row">
+          <div class="col-lg-6">
+            <h2 class="display-4">My name is Cong</h2>
+            <p style="font-size: large">
+              Web developer, mobile developer, backend enthusiast
+            </p>
+            <p style="font-size: medium">
+              I'm a self-taught developer who have worked with many languages
+              and frameworks on both front end and back end. My goal is to
+              deliver the best experience for my users and to improve my skills
+              on every aspect of programming.
+            </p>
+            <div class="my-4 mob-mid">
+              <a class="btn btn-outline-danger btn-lg" href="#skills"
+                >My skills</a
+              >
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <img
+              class="img-fluid rounded"
+              src="images/demo/gallery/portrait_cropped.jpg"
+              alt="my portrait"
+            />
+          </div>
+        </div>
+      </section>
+      <section id="skills" class="bg-white">
+        <div>
+          <h2 class="display-4 text-center">Expertise</h2>
+          <div class="row py-5 d-flex justify-content-around">
+            <div class="col-lg-3 d-flex justify-content-center">
+              <div class="box rounded">
+                <p class="lead skill-text">Front end</p>
+                <div class="percent">
+                  <svg>
+                    <circle cx="100" cy="100" r="100"></circle>
+                    <circle
+                      cx="100"
+                      cy="100"
+                      r="100"
+                      style="stroke: crimson"
+                    ></circle>
+                  </svg>
+                  <div class="number">
+                    <h2>50<span>%</span></h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 d-flex justify-content-center">
+              <div class="box rounded">
+                <p class="lead skill-text">Back end</p>
+                <div class="percent">
+                  <svg>
+                    <circle cx="100" cy="100" r="100"></circle>
+                    <circle
+                      cx="100"
+                      cy="100"
+                      r="100"
+                      style="stroke: darkgreen"
+                    ></circle>
+                  </svg>
+                  <div class="number">
+                    <h2>35<span>%</span></h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 d-flex justify-content-center">
+              <div class="box rounded">
+                <p class="lead skill-text">Mobile</p>
+                <div class="percent">
+                  <svg>
+                    <circle cx="100" cy="100" r="100"></circle>
+                    <circle
+                      cx="100"
+                      cy="100"
+                      r="100"
+                      style="stroke: dodgerblue"
+                    ></circle>
+                  </svg>
+                  <div class="number">
+                    <h2>60<span>%</span></h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h2 class="display-4 text-center mt-5">Frameworks</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="d-flex justify-content-around align-items-center">
+              <a href="https://reactjs.org/"
+                ><img
+                  class="logo img-fluid rounded"
+                  src="images/demo/gallery/react-js-logo.png"
+                  alt="react logo"
+              /></a>
+              <a href="https://flutter.dev/"
+                ><img
+                  class="logo img-fluid rounded"
+                  src="images/demo/gallery/flutter-logo.png"
+                  alt="flutter logo"
+              /></a>
+            </div>
+            <div class="d-flex justify-content-around align-items-center">
+              <a href="https://www.djangoproject.com/"
+                ><img
+                  class="logo img-fluid rounded"
+                  src="images/demo/gallery/django-logo.png"
+                  alt="django logo"
+              /></a>
+              <a href="https://getbootstrap.com/"
+                ><img
+                  class="logo img-fluid rounded"
+                  src="images/demo/gallery/bootstrap-logo.png"
+                  alt="bootstrap logo"
+              /></a>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <p class="lead">
+              Front end frameworks were my first programming saviors. They were
+              and have always been my favorites tools. I use them on a daily
+              basis and continue to learning more every single day. I'd love to
+              get to know more tools to enhance my productivity.
+            </p>
+          </div>
+        </div>
+        <hr />
+        <div class="row">
+          <div class="col-md-6">
+            <p class="lead">
+              Although i started late on backend and devops frameworks, i never
+              felt bored or helpless trying to improve my self on these amazing
+              platforms. In the near future, i'll definitely love to be an
+              expert on these tools as i work on more challenging and
+              well-rounded projects.
+            </p>
+          </div>
+          <div class="col-md-6">
+            <div class="d-flex justify-content-around align-items-center">
+              <a href="https://spring.io/projects/spring-boot/"
+                ><img
+                  class="logo img-fluid rounded"
+                  src="images/demo/gallery/springboot-logo.png"
+                  alt="spring logo"
+              /></a>
+              <a href="https://babeljs.io/"
+                ><img
+                  class="logo img-fluid rounded"
+                  src="images/demo/gallery/babel-logo.png"
+                  alt="babel logo"
+              /></a>
+            </div>
+            <div class="d-flex justify-content-around align-items-center">
+              <a href="https://www.docker.com/"
+                ><img
+                  class="logo img-fluid rounded"
+                  src="images/demo/gallery/docker-logo.png"
+                  alt="docker logo"
+              /></a>
+              <a href="https://nodejs.org/en/"
+                ><img
+                  class="logo img-fluid rounded"
+                  src="images/demo/gallery/nodejs-logo.png"
+                  alt="nodejs logo"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="projects" class="bg-light">
+        <h2 class="display-4 text-center">Projects</h2>
+        <article>
+          <h2 class="app-title d-lg-none">1. Bubble</h2>
+          <div class="row">
+            <div class="col-lg-5">
+              <img
+                class="img-fluid"
+                src="images/demo/gallery/bubble-mockup.png"
+                alt="bubble app mockup"
+              />
+            </div>
+            <div class="col-lg-7">
+              <h2 class="app-title d-none d-lg-block">1. Bubble</h2>
+              <p class="lead">
+                Bubble is a messaging app inspired by facebook messsenger. I has
+                almost everything messenger has to offer plus some additional
+                customization. It was built using flutter and firebase.
+              </p>
+              <div class="d-flex m-flex-center">
+                <a
+                  class="btn btn-large btn-outline-primary mr-3"
+                  target="_blank"
+                  href="http://www.mediafire.com/file/zehjauuh91q7che/Bubble.apk/file"
+                  >Download</a
+                >
+                <a
+                  class="btn btn-large btn-outline-dark"
+                  target="_blank"
+                  href="https://github.com/Undying-Hacker/Bubble"
+                  >Github Repo</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="row bg-gallery py-4 rounded mt-5 mx-1">
+            <figure class="col-6 col-md-3 demo-pic">
+              <img
+                alt="bubble app demo 1"
+                src="images/demo/gallery/bb_01.jpg"
+                class="img-fluid img-thumbnail"
+              />
+            </figure>
+
+            <figure class="col-6 col-md-3 demo-pic">
+              <img
+                alt="bubble app demo 2"
+                src="images/demo/gallery/bb_02.jpg"
+                class="img-fluid img-thumbnail"
+              />
+            </figure>
+
+            <figure class="col-6 col-md-3 demo-pic">
+              <img
+                alt="bubble app demo 3"
+                src="images/demo/gallery/bb_03.jpg"
+                class="img-fluid img-thumbnail"
+              />
+            </figure>
+
+            <figure class="col-6 col-md-3 demo-pic">
+              <img
+                alt="bubble app demo 4"
+                src="images/demo/gallery/bb_04.jpg"
+                class="img-fluid img-thumbnail"
+              />
+            </figure>
+          </div>
+        </article>
+        <hr />
+        <article>
+          <h2 class="app-title d-lg-none">2. FooCaster</h2>
+          <div class="row">
+            <div class="col-lg-5">
+              <img
+                class="img-fluid"
+                src="images/demo/gallery/noobcaster-mockup.png"
+                alt="foocaster app mockup"
+              />
+            </div>
+            <div class="col-lg-7">
+              <h2 class="app-title d-none d-lg-block">2. FooCaster</h2>
+              <p class="lead">
+                FooCaster is a weather tracker app. I provides current weather
+                condition at your location as well as forcast information for up
+                to 2 days. You can also view the weather in others areas via the
+                powerful, voice-integrated search included within the app. It
+                was built using flutter and open weather api.
+              </p>
+              <div class="d-flex m-flex-center">
+                <a
+                  class="btn btn-large btn-outline-primary mr-3"
+                  target="_blank"
+                  href="http://www.mediafire.com/file/j4az48v3nss8tq5/FooCaster.apk/file"
+                  >Download</a
+                >
+                <a
+                  class="btn btn-large btn-outline-dark"
+                  target="_blank"
+                  href="https://github.com/Undying-Hacker/NoobCaster"
+                  >Github Repo</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="row bg-gallery py-4 rounded mt-5 mx-1">
+            <figure class="col-6 col-md-3 demo-pic">
+              <img
+                alt="foocaster app demo 1"
+                src="images/demo/gallery/fc_01.jpg"
+                class="img-fluid img-thumbnail"
+              />
+            </figure>
+
+            <figure class="col-6 col-md-3 demo-pic">
+              <img
+                alt="foocaster app demo 2"
+                src="images/demo/gallery/fc_02.jpg"
+                class="img-fluid img-thumbnail"
+              />
+            </figure>
+
+            <figure class="col-6 col-md-3 demo-pic">
+              <img
+                alt="foocaster app demo 3"
+                src="images/demo/gallery/fc_03.jpg"
+                class="img-fluid img-thumbnail"
+              />
+            </figure>
+
+            <figure class="col-6 col-md-3 demo-pic">
+              <img
+                alt="foocaster app demo 4"
+                src="images/demo/gallery/fc_04.jpg"
+                class="img-fluid img-thumbnail"
+              />
+            </figure>
+          </div>
+        </article>
+        <hr />
+        <article>
+          <h2 class="app-title d-lg-none">3. Noober Food</h2>
+          <div class="row">
+            <div class="col-lg-5">
+              <img
+                class="img-fluid"
+                src="images/demo/gallery/nooberfood-mockup.png"
+                alt="noober food app mockup"
+              />
+            </div>
+            <div class="col-lg-7">
+              <h2 class="app-title d-none d-lg-block">3. Noober Food</h2>
+              <p class="lead">
+                Noober Food is a food and nutrition helper app. I is very
+                helpful for those struggling to find new and decilous dishes or
+                those who want to have a more thorough control on their diet.
+                Built using flutter and food api, this app has access to
+                millions of recipes and nutritional information. Clients with
+                allergies or vegans are well taken care of thanks to our
+                wonderful filtering engine.
+              </p>
+              <div class="d-flex m-flex-center">
+                <a
+                  class="btn btn-large btn-outline-primary mr-3"
+                  target="_blank"
+                  href="http://www.mediafire.com/file/n70kzex92wmpmuj/NooberFood.apk/file"
+                  >Download</a
+                >
+                <a
+                  class="btn btn-large btn-outline-dark"
+                  target="_blank"
+                  href="https://github.com/Undying-Hacker/Noober-Food"
+                  >Github Repo</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="row bg-gallery py-4 rounded mt-5 mx-1">
+            <figure class="col-6 col-md-3 demo-pic">
+              <img
+                alt="noober food app demo 1"
+                src="images/demo/gallery/nb_01.jpg"
+                class="img-fluid img-thumbnail"
+              />
+            </figure>
+
+            <figure class="col-6 col-md-3 demo-pic">
+              <img
+                alt="noober food app demo 2"
+                src="images/demo/gallery/nb_02.jpg"
+                class="img-fluid img-thumbnail"
+              />
+            </figure>
+
+            <figure class="col-6 col-md-3 demo-pic">
+              <img
+                alt="noober food app demo 3"
+                src="images/demo/gallery/nb_03.jpg"
+                class="img-fluid img-thumbnail"
+              />
+            </figure>
+
+            <figure class="col-6 col-md-3 demo-pic">
+              <img
+                alt="noober food app demo 4"
+                src="images/demo/gallery/nb_04.jpg"
+                class="img-fluid img-thumbnail"
+              />
+            </figure>
+          </div>
+        </article>
+        <hr />
+        <article>
+          <h2 class="app-title d-lg-none">4. Noober News</h2>
+          <div class="row">
+            <div class="col-lg-5">
+              <img
+                class="img-fluid"
+                src="images/demo/gallery/pass-locker-mockup.png"
+                alt="pass locker app mockup"
+              />
+            </div>
+            <div class="col-lg-7">
+              <h2 class="app-title d-none d-lg-block">4. Pass Locker</h2>
+              <p class="lead">
+                Tired of having to remember your passwords? Pass Locker is here
+                to help. This apps helps you organize all of your accounts in a
+                secured formated. Offline-mode is fully supported so you never
+                have to to worry about lame network connection. React native and
+                firebase are the core of this app
+              </p>
+              <div class="d-flex m-flex-center">
+                <a
+                  class="btn btn-large btn-outline-primary mr-3"
+                  target="_blank"
+                  href="http://www.mediafire.com/file/rmvv02n2ggtlsf9/Passlocker.apk/file"
+                  >Download</a
+                >
+                <a
+                  class="btn btn-large btn-outline-dark"
+                  target="_blank"
+                  href="https://github.com/Undying-Hacker/PassLocker"
+                  >Github Repo</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="row bg-gallery py-4 rounded mt-5 mx-1">
+            <figure class="col-6 col-md-3 demo-pic">
+              <img
+                alt="pass locker app demo 1"
+                src="images/demo/gallery/pl_01.jpg"
+                class="img-fluid img-thumbnail"
+              />
+            </figure>
+
+            <figure class="col-6 col-md-3 demo-pic">
+              <img
+                alt="pass locker app demo 2"
+                src="images/demo/gallery/pl_02.jpg"
+                class="img-fluid img-thumbnail"
+              />
+            </figure>
+
+            <figure class="col-6 col-md-3 demo-pic">
+              <img
+                alt="pass locker app demo 3"
+                src="images/demo/gallery/pl_03.jpg"
+                class="img-fluid img-thumbnail"
+              />
+            </figure>
+
+            <figure class="col-6 col-md-3 demo-pic">
+              <img
+                alt="pass locker app demo 4"
+                src="images/demo/gallery/pl_04.jpg"
+                class="img-fluid img-thumbnail"
+              />
+            </figure>
+          </div>
+        </article>
+        <hr />
+      </section>
+      <footer id="contact" class="bg-white">
+        <div class="p-5">
+          <h2 class="display-4 ml-2 mb-5">Contact me</h2>
+          <div class="bg-white shadow rounded p-3 mx-2">
+            <form>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="email">Email address</label>
+                    <input
+                      required
+                      type="email"
+                      class="form-control"
+                      id="email"
+                      name="email"
+                      aria-describedby="emailHelp"
+                      placeholder="Enter email"
+                    />
+                    <small id="emailHelp" class="form-text text-muted"
+                      >I'll never share your email with anyone else.</small
+                    >
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="name">Name</label>
+                    <input
+                      required
+                      type="text"
+                      class="form-control"
+                      id="name"
+                      name="name"
+                      placeholder="Enter name"
+                    />
+                    <small id="emailHelp" class="form-text text-muted"
+                      >I'll refer to you by this name.</small
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="message">Your message</label>
+                <textarea
+                  required
+                  class="form-control"
+                  id="message"
+                  name="message"
+                  placeholder="Tell me something..."
+                  rows="5"
+                ></textarea>
+              </div>
+              <div>
+                <button id="submit-btn" class="btn btn-primary" type="submit">
+                  Submit
+                </button>
+                <button
+                  id="loading-btn"
+                  class="btn btn-primary"
+                  type="button"
+                  disabled
+                >
+                  <span
+                    class="spinner-border spinner-border-sm"
+                    role="status"
+                    aria-hidden="true"
+                  ></span>
+                  <span>Loading...</span>
+                </button>
+                <button id="sent-btn" class="btn btn-outline-success" disabled>
+                  Sent <i class="fas fa-check" style="color: green"></i>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="bg-dark p-3 text-center text-light">
+          <p class="lead" style="margin-bottom: 0">
+            Copyright &copy; 2020 NooberCong - All Rights Reserved
+          </p>
+        </div>
+      </footer>
+      <a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
+      <div
+        id="quick-contact-bar"
+        class="d-flex flex-column justify-content-center align-items-center"
+      >
+        <a href="https://www.facebook.com/toseetheworldistolive" target="_blank"
+          ><div class="social-btn">
+            <i
+              class="fab fa-facebook-f"
+              style="color: #ffffff; font-size: 1.5rem"
+            ></i></div
+        ></a>
+        <a
+          href="https://www.youtube.com/channel/UCuRa_qwpbwCgcJOauAaUEDQ?view_as=subscriber"
+          target="_blank"
+          ><div class="social-btn">
+            <i
+              class="fab fa-youtube"
+              style="color: #ffffff; font-size: 1.5rem"
+            ></i></div
+        ></a>
+        <a href="https://twitter.com/ZzPewdiepiezZ" target="_blank">
+          <div class="social-btn">
+            <i
+              class="fab fa-twitter"
+              style="color: #ffffff; font-size: 1.5rem"
+            ></i>
+          </div>
+        </a>
+        <a href="https://github.com/Undying-Hacker" target="_blank">
+          <div class="social-btn">
+            <i
+              class="fab fa-github"
+              style="color: #ffffff; font-size: 1.5rem"
+            ></i>
+          </div>
+        </a>
+      </div>
+    </main>
+    <script src="layout/scripts/jquery.min.js"></script>
+    <script src="layout/scripts/jquery.backtotop.js"></script>
+    <script src="bootstrap-4.5.3-dist/js/bootstrap.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/viewerjs/1.8.0/viewer.min.js"
+      integrity="sha512-0Wn9X6EqYvivEQ+TqPycd7e2Py2FTP6ke9/v6CWFwg0+5G9lgRV4SyR7BApYriLL8dLB1OscA+8LrYA/X6wm3w=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="layout/scripts/main.js"></script>
+  </body>
+</html>
