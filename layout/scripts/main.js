@@ -1,4 +1,4 @@
-$(".toast").toast();
+$(".carousel").carousel();
 configureSocialButtons();
 configureScrollListeners();
 configureImageViewer();
